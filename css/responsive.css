@@ -1,0 +1,81 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  .contact-img img{
+    margin-left:30px;
+    width:235px;
+
+  }
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+.logo{
+    text-align:center;
+}
+
+.header-text h2{
+
+    font-size: 60px;
+}
+
+.header-text {
+padding:150px 0 100px;
+
+}
+
+.author-food-img {
+    margin-top:30px;
+    text-align: center;
+}
+
+.footer-area {
+
+    font-size:14px;
+}
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+.logo {
+    text-align:center;
+}  
+
+.mainmenu {
+    padding-right:0;
+    padding-top:20px;
+    text-align: center;
+}
+  
+.navbar-toggle {
+    float:none;
+    margin: 0;
+    border-color:#fff;
+}
+
+.navbar-toggle .icon-bar{
+    background:#fff none repeat scroll 0 0;
+    border-radius:1px;
+    display: block;
+    height: 2px;
+    width: 22px;
+}
+
+
+.navbar-toggle{
+    background-color:transparent;
+    background-image:none;
+    border:1px solid transparent;
+    border-radius: 4px;
+    float: none;
+    margin: 0;
+    padding:9px 10px;
+    position: relative;
+}
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
